@@ -33,3 +33,8 @@ sudo python3 capture/sniffer.py
 python3 dashboard/app.py
 ```
 Open browser at: http://127.0.0.1:5000
+
+## Real-World Detection
+During testing, the NIDS successfully detected suspicious 
+activity from a real external IP (Microsoft Azure - 13.69.239.74) 
+that was scanning multiple ports on the local machine.
