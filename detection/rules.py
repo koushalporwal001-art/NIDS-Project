@@ -12,7 +12,7 @@ ip_port_tracker = defaultdict(set)
 ip_first_seen = {}
 alerted_ips = set()
 
-PORT_SCAN_THRESHOLD = 10
+PORT_SCAN_THRESHOLD = 4
 TIME_WINDOW = 30
 
 def detect_port_scan(src_ip, dst_port):
