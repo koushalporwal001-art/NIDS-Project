@@ -35,6 +35,14 @@ python3 dashboard/app.py
 Open browser at: http://127.0.0.1:5000
 
 ## Real-World Detection
-During testing, the NIDS successfully detected suspicious 
-activity from a real external IP (Microsoft Azure - 13.69.239.74) 
-that was scanning multiple ports on the local machine.
+During testing, the NIDS successfully detected suspicious activity from a real
+external IP (Microsoft Azure - 13.69.239.74) that was scanning 11 ports in
+just 15.84 seconds — without any manual trigger.
+
+## Screenshots
+
+### NIDS Detecting Live Nmap Scan + Real Microsoft Azure IP (13.69.239.74)
+![Alert Detection](screenshots/nmap-alert.png)
+
+### Web Dashboard — 4 Real Alerts Logged
+![Dashboard](screenshots/dashboard.png)
